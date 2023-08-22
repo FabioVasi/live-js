@@ -1,4 +1,4 @@
-
+//Anni: chiediamo all'utente la sua età e comunichiamo l'anno di nascita.
 
 /*
 
@@ -31,9 +31,10 @@ Strumenti.
 
 //Salutare: chiediamo all'utente il suo nome e inseriamo in pagina la stringa "ciao <nome_utente>"
 
-
 //Strumenti.
+
 /*
+
 - prompt
 - document.getElementById
 - console.log
@@ -46,13 +47,13 @@ const userName = prompt('inserisci il tuo nome');
 
 //selezionare il tag tramite id in cui inserire il risultato
 
-
 const greetingsElement = document.getElementById('greetings');
 console.log(greetingsElement);
+
 //stampare il risultato in console
 
 console.log('Ciao' + userName);
 
 // stampare il risultato in pagina
 
-greetingsElement.innerHTML = 'Ciao ' + userName; 
+greetingsElement.innerHTML = 'Ciao ' + userName;
