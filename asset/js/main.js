@@ -47,12 +47,12 @@ const userName = prompt('inserisci il tuo nome');
 //selezionare il tag tramite id in cui inserire il risultato
 
 
-const gredingsElement = document.getElementById('gredings');
-console.log(gredingsElement);
+const greetingsElement = document.getElementById('greetings');
+console.log(greetingsElement);
 //stampare il risultato in console
 
 console.log('Ciao' + userName);
 
 // stampare il risultato in pagina
 
-gredingsElement.innerHTML = 'Ciao ' + userName; 
+greetingsElement.innerHTML = 'Ciao ' + userName; 
