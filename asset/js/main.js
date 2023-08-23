@@ -96,8 +96,43 @@ passwordElement.innerHTML = result;
 
 
 
+/*
 
+Chiediamo all'utente due parole in successione.
+Andiamo poi a verificare quale delle due parole è più lunga e stampiamo in console un messaggio appropriato.
 
+Strumenti.
 
+- prompt
+- length
+- console.log
+- if/else
 
+*/
+
+// chiedo parola 1
+
+const parola_1 = prompt('inserisci parola 1');
+
+// chiedo parola 2
+
+const parola_2 = prompt('inserisci parola 2');
+
+// console log parole
+
+console.log(parola_1, parola_2, parola_1.length, parola_2.length);
+
+// verifico se la parola 1 è più lunga di parola 2
+
+if(parola_1.length > parola_2.length){
+    console.log('la parola è più lunga');
+} else if(parola_1.length < parola_2.length){
+    console.log('la parola è più lunga');
+} else{
+    console.log('le parole sono uguali');
+}
+
+// verifico se la parola 2 è più lunga di parola 1
+// verifico se la parola 1 è uguale alla  parola 2
+// stampo il messaggio in console
 
