@@ -9,23 +9,23 @@ Strumenti.
 - consoleLog
 - document.getElementById
 
-Chiedere età utente
+*/
+
+// Chiedere età utente
 
 let userAge = prompt('type your age');
 
-recupero l'anno corrente con una const
+// recupero l'anno corrente con una const
 
 const currentYear = 2023;
 
-sottraggo all'anno corrente gli anni dell'utente
+// sottraggo all'anno corrente gli anni dell'utente
 
 const birthYear = currentYear - Number(userAge);
 
-stampo in console il risultato
+// stampo in console il risultato
 
 console.log('ciao sei nato il ' + birthYear);
-
-*/
 
 
 
@@ -39,24 +39,26 @@ Strumenti.
 - document.getElementById
 - console.log
 
-chiedere il nome utente
+*/
+
+// chiedere il nome utente
 
 const userName = prompt('inserisci il tuo nome');
 
-selezionare il tag tramite id in cui inserire il risultato
+// selezionare il tag tramite id in cui inserire il risultato
 
 const greetingsElement = document.getElementById('greetings');
 console.log(greetingsElement);
 
-stampare il risultato in console
+// stampare il risultato in console
 
 console.log('Ciao' + userName);
 
- stampare il risultato in pagina
+// stampare il risultato in pagina
 
 greetingsElement.innerHTML = 'Ciao ' + userName;
 
-*/
+
 
 
 
@@ -75,6 +77,8 @@ Strumenti.
 - console.log
 - 
 
+*/
+
 const userName = prompt('type your name here');
 
 const userSurname = prompt('type your surname here');
@@ -91,8 +95,6 @@ const passwordElement = document.getElementById('password');
 console.log(passwordElement);
 
 passwordElement.innerHTML = result;
-
-*/
 
 
 
@@ -123,7 +125,10 @@ const parola_2 = prompt('inserisci parola 2');
 console.log(parola_1, parola_2, parola_1.length, parola_2.length);
 
 // verifico se la parola 1 è più lunga di parola 2
-/*
+// verifico se la parola 2 è più lunga di parola 1
+// verifico se la parola 1 è uguale alla  parola 2
+// stampo il messaggio in console
+
 if(parola_1.length > parola_2.length){
     console.log('la parola è più lunga');
 } else if(parola_1.length < parola_2.length){
@@ -131,10 +136,3 @@ if(parola_1.length > parola_2.length){
 } else{
     console.log('le parole sono uguali');
 }
-
-*/
-
-// verifico se la parola 2 è più lunga di parola 1
-// verifico se la parola 1 è uguale alla  parola 2
-// stampo il messaggio in console
-
