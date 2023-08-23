@@ -1,6 +1,7 @@
-/*
 
-Anni: chiediamo all'utente la sua età e comunichiamo l'anno di nascita.
+//Anni: chiediamo all'utente la sua età e comunichiamo l'anno di nascita.
+
+/*
 
 Strumenti.
 
@@ -8,8 +9,6 @@ Strumenti.
 - let userAge
 - consoleLog
 - document.getElementById
-
-
 
 // Chiedere età utente
 
@@ -27,19 +26,19 @@ const birthYear = currentYear - Number(userAge);
 
 console.log('ciao sei nato il ' + birthYear);
 
+*/
 
+
+
+//Salutare: chiediamo all'utente il suo nome e inseriamo in pagina la stringa "ciao <nome_utente>"
 
 /*
-
-Salutare: chiediamo all'utente il suo nome e inseriamo in pagina la stringa "ciao <nome_utente>"
 
 Strumenti.
 
 - prompt
 - document.getElementById
 - console.log
-
-
 
 // chiedere il nome utente
 
@@ -58,16 +57,16 @@ console.log('Ciao' + userName);
 
 greetingsElement.innerHTML = 'Ciao ' + userName;
 
+*/
 
 
 
+//Es.s n°1 JS
+
+//Chiedi all’utente il suo nome, poi chiedi il suo cognome, poi chiedi il suo colore preferito ed infine scrivi in pagina (non solo in console) il risultato,
+//che va formattato in questo modo: nomecognomecolorepreferito23
 
 /*
-
-Es.s n°1 JS
-
-Chiedi all’utente il suo nome, poi chiedi il suo cognome, poi chiedi il suo colore preferito ed infine scrivi in pagina (non solo in console) il risultato,
-che va formattato in questo modo: nomecognomecolorepreferito23
 
 Strumenti.
 
@@ -75,9 +74,6 @@ Strumenti.
 - Let/const
 - document.getElementById
 - console.log
-- 
-
-
 
 const userName = prompt('type your name here');
 
@@ -96,6 +92,8 @@ console.log(passwordElement);
 
 passwordElement.innerHTML = result;
 
+*/
+
 
 
 /*
@@ -109,8 +107,6 @@ Strumenti.
 - length
 - console.log
 - if/else
-
-
 
 // chiedo parola 1
 
