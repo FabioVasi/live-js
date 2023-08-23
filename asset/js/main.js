@@ -9,7 +9,7 @@ Strumenti.
 - consoleLog
 - document.getElementById
 
-*/
+
 
 // Chiedere età utente
 
@@ -39,7 +39,7 @@ Strumenti.
 - document.getElementById
 - console.log
 
-*/
+
 
 // chiedere il nome utente
 
@@ -77,7 +77,7 @@ Strumenti.
 - console.log
 - 
 
-*/
+
 
 const userName = prompt('type your name here');
 
@@ -110,7 +110,7 @@ Strumenti.
 - console.log
 - if/else
 
-*/
+
 
 // chiedo parola 1
 
@@ -136,3 +136,131 @@ if(parola_1.length > parola_2.length){
 } else{
     console.log('le parole sono uguali');
 }
+
+*/
+
+
+
+//età: chiedere all'utente con due prompt gli anni di due persone e comunicare quale delle due è più grande
+
+/* 
+
+Strumenti.
+
+- prompt
+- condition
+- number
+- console.log
+- getElementById
+
+*/
+
+/*
+
+// chiedo gli anni del primo utente e li trasformo in numeri
+
+const età_1 = Number(prompt('quanti anni hai?'));
+
+// chiedo gli anni del secondo utente e li trasformo in numeri
+
+const età_2 = Number(prompt('quanti anni hai?'));
+console.log(età_1, età_2);
+
+// 1 confronto se l'età del primo utente è superione a quella del secondo utente e stampo il messaggio
+// 2 confronto se l'età del primo utente è inferiore a quella del secondo utente e stampo il messaggio
+// 3 confronto se l'età del primo utente è uguale a quella del secondo utente e stampo il messaggio
+
+*/
+
+/*
+
+if(età_1 > età_2){
+    console.log('utente 1 è più grande di utente 2');
+} else if(età_1 < età_2){
+    console.log('utente 2 è più grande di utente 1');
+} else if(età_1 === età_2){
+    console.log('hanno la stessa età');
+} else{
+    alert("ops! c'è un errore.");
+}
+console.log(isNaN());
+
+*/
+
+
+
+// pari o dispari: chiedere all'utente se vuole pari o dispari e un numero intero compreso tra 1 e 9. Generare un numero casuale compreso tra 1 e 9, che sarà la giocata del computer. Stabilire e comunicare chi ha vinto secondo le regole di pari o dispari.
+
+/*
+
+Strumenti.
+
+- prompt
+- number
+- Math.random
+- Math.floor
+- Math.ceil
+- const
+- let
+- if
+- else
+- console log
+
+*/
+
+// prompt pari o dispari
+
+const sceltaUtente = prompt('pari o dispari?');
+// to do.. controlla se l'utente ha inserito i dati richiesti
+if(sceltaUtente != 'pari' && sceltaUtente != 'dispari'){
+    alert('inserisci pari o dispari');
+}
+
+// prompt per il numero da 1 a 9
+
+const numeroUtente = prompt('scegli un numero da 1 a 9');
+// to do.. controlla se l'utente ha inserito i dati richiesti
+if(numeroUtente < 1 || numeroUtente > 9){
+    alert('hai inserito un numero troppo alto o troppo basso');
+}
+
+console.log(sceltaUtente, numeroUtente);
+
+// genero il numero random per il computer
+
+const numeroComputer = Math.floor(Math.random() * 9) + 1;
+console.log(numeroComputer);
+
+// sommo il risultato dei due numeri
+
+const sommaNumeri = numeroComputer + numeroUtente;
+console.log(sommaNumeri);
+
+// verifica se pari o dispari dividento per 2
+
+let risultato;
+
+if(sommaNumeri % 2 == 0){
+    console.log('pari');
+    risultato = 'pari';
+} else{
+    console.log('dispari');
+    risultato = 'dispari';
+}
+console.log(risultato);
+
+// stabilisco chi vince
+
+if(risultato === sceltaUtente){
+    console.log('Hai vinto');
+} else{
+    console.log('Hai perso');
+}
+
+
+
+
+
+
+
+
