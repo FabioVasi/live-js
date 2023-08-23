@@ -208,10 +208,14 @@ Strumenti.
 
 */
 
+/*
+
 // prompt pari o dispari
 
 const sceltaUtente = prompt('pari o dispari?');
+
 // to do.. controlla se l'utente ha inserito i dati richiesti
+
 if(sceltaUtente != 'pari' && sceltaUtente != 'dispari'){
     alert('inserisci pari o dispari');
 }
@@ -219,7 +223,9 @@ if(sceltaUtente != 'pari' && sceltaUtente != 'dispari'){
 // prompt per il numero da 1 a 9
 
 const numeroUtente = prompt('scegli un numero da 1 a 9');
+
 // to do.. controlla se l'utente ha inserito i dati richiesti
+
 if(numeroUtente < 1 || numeroUtente > 9){
     alert('hai inserito un numero troppo alto o troppo basso');
 }
@@ -257,7 +263,7 @@ if(risultato === sceltaUtente){
     console.log('Hai perso');
 }
 
-
+*/
 
 
 
