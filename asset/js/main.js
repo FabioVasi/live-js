@@ -263,6 +263,117 @@ if(risultato === sceltaUtente){
 
 
 
+//linkElement.className = linkElement.className + 'fabio';
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Ciao Visitatore!
+Imposta il nome di colore rosso in vari modi:
+Solo con HTML+CSS
+Scrivendo su element.style
+Aggiungendo la classe con JS
+*/
+
+// Strumenti.
+
+/*
+
+const domTitle = document.querySelector("h1");
+
+console.log(domTitle);
+
+domTitle.style.color = "blue"
+
+domTitle.classList.add("violet")
+
+*/
+
+
+
+//Al click di un pulsante, deve apparire un alert con un numero random
+
+/*
+
+const domButton = document.querySelector("button");
+
+console.log(domButton);
+
+domButton.addEventListener('click', function(){
+    alert(Math.random())
+});
+
+*/
+
+
+
+/*
+Il software deve chiedere all’utente il suo nome e il sesso con due prompt diversi.
+Sulla pagina html deve apparire “Ciao <nome>”, il colore del nome deve essere azzurro o rosa a seconda del sesso inserito
+*/
+
+// strumenti.
+
+/*
+
+- prompt
+- console.log
+- getElementById/querrySelector
+- const/let
+- if/else
+- .classList/.className
+
+*/
+
+/*
+
+// Chiedo il nome dell'utente
+const userName = prompt('Type your name').toLowerCase()
+// Chiedo il sesso dell'utente
+const userGender = prompt('Type your gender. ie:m/f/x')
+console.log(userName, userGender);
+// Stampo in pagina Ciao "nome"
+document.querySelector('h1').innerHTML = 'Ciao ' + `<span>${userName}</span>`;
+
+const nameElementDom = document.querySelector('h1 > span')
+
+if (userGender === 'm') {
+    nameElementDom.style.color = 'blue';
+} else if(userGender === 'f') {
+    nameElementDom.style.color = 'pink';
+} else if(userGender === 'x') {
+    nameElementDom.style.color = 'green';
+} else {
+    alert('options are m/f/x try again');
+}
+
+*/
