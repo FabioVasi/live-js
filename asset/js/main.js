@@ -377,3 +377,59 @@ if (userGender === 'm') {
 }
 
 */
+
+
+
+//loops
+// i++ = -> i = i + 1 serve ad evitare un loop infinito
+//stampare tutti i numeri da 0 a 1000
+
+/*for (let i = 0; i <= 1000; i++) {
+    const prova = document.getElementById('prova');
+    prova.insertAdjacentHTML("beforeend", `<li>${i}</li>`)
+    console.log(i);
+}*/
+
+
+
+// stampo in console i numeri da 1000 a 0
+
+/*let element = document.getElementById('list');
+
+for(let i = 1000; i >= 100; i--) {
+    console.log(i);
+
+    const markup = `<li>${i}</li>`;
+
+    //element.innerHTML += markup;
+    const liElement = document.createElement('li')
+    liElement.append(i);
+    element.append(liElement);
+}
+*/
+
+
+
+/*const listEl = document.getElementById('list')
+
+for(let i = 25; i <= 50; i++){
+    
+    console.log(i);
+
+    const itemEl = `<li>${i}</li>`
+
+    //listEl.innerHTML = itemEl
+
+    listEl.insertAdjacentHTML("beforeend", itemEl);
+
+}
+*/
+
+const listElement = document.getElementById('list');
+
+for(let i = 75; i >= 50; i--){
+    console.log(i);
+    const itemElement = document.createElement("li")
+    listElement.append(itemElement);
+}
+console.log('ho finito il ciclo');
