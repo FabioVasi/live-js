@@ -425,11 +425,15 @@ for(let i = 25; i <= 50; i++){
 }
 */
 
+
+
+/*
 const listElement = document.getElementById('list');
 
 for(let i = 75; i >= 50; i--){
     console.log(i);
     const itemElement = document.createElement("li")
+    itemElement.append(i);
     listElement.append(itemElement);
 }
-console.log('ho finito il ciclo');
+*/
