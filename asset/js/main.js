@@ -609,7 +609,7 @@ for (let index = 0; index < movies.length; index++) {
     const liElement = document.createElement('li');
 
     liElement.setAttribute('class', 'li-Element')
-
+    liElement.setAttribute('id', '')
     liElement.append(movie)
 
     ul.append(liElement);
