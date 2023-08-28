@@ -437,3 +437,143 @@ for(let i = 75; i >= 50; i--){
     listElement.append(itemElement);
 }
 */
+
+
+
+// Array live_js
+
+/*
+
+const TVseries = ['supernatural', 'breaking bad', 'the boys'];
+
+console.log(TVseries);
+
+TVseries.push('stranger things');
+
+TVseries.push('the mandalorian');
+
+console.log(TVseries.length);
+
+let userNumber = prompt(`Choose a number between 0 and ${TVseries.length - 1}`);
+
+console.log(userNumber);
+
+TVseries[userNumber];
+
+console.log(TVseries[userNumber]);
+
+*/
+
+
+
+/*
+
+const shoppingList = ['pasta', 'pomodoro', 'olio'];
+
+console.log(shoppingList);
+
+const ulElement = document.querySelector('ul');
+
+for (let i = 0; i < shoppingList.length; i++) {
+
+    const element = shoppingList[i];
+    
+    console.log(element);
+
+    const markup = `<li>${element}</li>`
+
+    ulElement.innerHTML += markup
+
+}
+
+*/
+
+
+
+// dato un array di numeri interi, stampare solo i numeri dispari
+
+/*
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+console.log(numbers);
+
+for (let i = 0; i < numbers.length; i++) {
+    
+    const element = numbers[i];
+
+    if(element % 2 !== 0){
+        console.log(element);
+    }
+
+}
+
+*/
+
+
+
+// stampare tutti gli elementi di un array dentro una lista ordinata
+
+/*
+
+const animals = ['leone', 'zebra', 'elefante'];
+
+console.log(animals);
+
+const olElement = document.querySelector('ol');
+
+for (let i = 0; i < animals.length; i++) {
+    
+    const animal = animals[i];
+
+    console.log(animal);
+
+    const liElement = document.createElement('li');
+    
+    liElement.append(animal);
+
+    console.log(liElement);
+    
+    olElement.append(liElement);
+
+}
+
+*/
+
+
+
+/*
+
+const footballTeams = ['roma','lazio','milan','inter']
+
+console.log(footballTeams);
+
+const listElement = document.querySelector('ul');
+
+for (let i = 0; i < footballTeams.length; i++) {
+    
+    const team = footballTeams[i];
+
+    console.log(team);
+
+    const listItem = `<li>${team}</li>`
+
+    listElement.insertAdjacentHTML('beforeend', listItem);
+    
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
