@@ -566,14 +566,57 @@ for (let i = 0; i < footballTeams.length; i++) {
 
 
 
+/*
+
+const movies = ['']
+
+movies.push('matrix')
+movies.push('avatar')
+movies.push('lion king')
+movies.push('imitation game')
+movies.push('harry potter')
+movies.push('star wars')
+
+//console.log(movies);
+
+console.log(0);
+console.log(1);
+console.log(2);
+console.log(3);
+console.log(4);
+console.log(5);
 
 
+// nodo della DOM 
+const ul = document.querySelector('ul')
+
+for (let index = 0; index < movies.length; index++) {
+    
+    const movie = movies[index];
+
+    console.log(movie);
+    
+    const liMarkup = `<li>${movie}</li>`
+
+    // 1 innerHTML 
+    //ul.innerHTML += liMarkup
+
+    // 2 insertAdjacentHTML/insertAdjacentElement
+    //ul.insertAdjacentHTML('beforeend', liMarkup)
 
 
+    // 3 createElement/append
+    const liElement = document.createElement('li');
 
+    liElement.setAttribute('class', 'li-Element')
 
+    liElement.append(movie)
 
+    ul.append(liElement);
 
+    //console.log(liElement);
 
+}
 
+*/
 
