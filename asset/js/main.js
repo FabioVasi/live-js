@@ -620,3 +620,198 @@ for (let index = 0; index < movies.length; index++) {
 
 */
 
+
+
+// Funzioni js
+
+/*const yob_2 = 1990;
+
+const currentYear_2 = new Date().getFullYear()
+
+console.log(yob_2, currentYear_2);
+
+const userAge_2 = currentYear_2 - yob_2
+
+console.log(userAge_2);
+
+
+const yob_3 = 2000;
+
+const currentYear_3 = new Date().getFullYear()
+
+console.log(yob_3, currentYear_3);
+
+const userAge_3 = currentYear_3 - yob_3
+
+console.log(userAge_3);*/
+
+
+/*function sommaNumeri(num1, num2) {
+
+    console.log(num1);
+
+    alert(num1 + num2);
+
+}*/
+
+//sommaNumeri(5, 9)
+
+
+
+/*function calcAge(yearOfBirth) {
+
+    console.log(yearOfBirth);
+
+    const currentYear = new Date().getFullYear()
+    
+    console.log(yearOfBirth, currentYear);
+    
+    const userAge = currentYear - yearOfBirth
+    
+    console.log(userAge);
+
+}
+
+const userYob = Number(prompt('type your year of birth'));
+
+calcAge(1980)
+
+calcAge(userYob)*/
+
+
+
+/*let num2 = 20;// variabile globale
+
+function sommaNumeri(num1, num2) {
+
+    const result = num1 + num2
+    console.log(result);
+    return result // inserire come ultima istruzione o contenuta in un condizionale
+
+}
+
+//console.log(result);
+
+console.log(sommaNumeri(4, 5));//return (read) e loggo
+
+5+5 //leggo ma non loggo
+console.log(5+5); //leggo e loggo*/
+
+
+
+/*const currentYear = new Date().getFullYear()
+
+function calcAge(yearOfBirth, currentYear) {
+    
+    return currentYear - yearOfBirth;
+
+}
+
+calcAge(1980, currentYear)
+calcAge(1980, new Date().getFullYear()) */
+
+
+
+/*
+numeri random: 
+generare 10 numeri random (con un for o con un while) attraverso una funzione (copiamola da w3schools) e stamparli a schermo
+
+
+function getRndInteger(min, max) {
+
+    return Math.floor(Math.random() * (max - min + 1) ) + min;
+
+}*/
+
+/*const randomNumber = getRndInteger(1, 10);
+
+console.log(getRndInteger(1, 10));
+
+console.log(randomNumber);*/
+
+/*for (let i = 0; i < 10; i++) {
+  
+    const randomNumber = getRndInteger(1, 10); 
+    console.log(randomNumber);
+}*/
+
+
+
+/*
+pari o dispari: 
+scrivere una funzione per verificare se un numero è pari o dispari, quindi chiedere un numero all'utente e comunicargli se è pari o dispari
+*/
+
+//const userNumber = 8;
+
+/*if(userNumber % 2 === 0) {
+    console.log("il numero è pari");
+} else {
+    console.log("il numero è dispari");
+}*/
+
+
+
+/*const userNumber = prompt("Scegli un numero");
+console.log(isEven(userNumber));
+const result = isEven(userNumber);
+console.log(result);
+
+if(isEven(userNumber)) {
+    console.log("numero pari");
+} else {
+    console.log("numero dispari");
+}*/
+
+function isEven(userNumber) {
+
+    if (userNumber % 2 === 0) {
+    
+        return true;
+    
+    }
+    
+    return false;
+
+}
+
+const esegui = document.querySelector('button');
+
+const inputNumber = document.getElementById('user_number');
+
+esegui.addEventListener('click', function () {
+    
+    console.log("Ho cliccato su esegui");
+    
+    console.log(inputNumber.value + " " + "Questo è il numero che ho scelto");
+    
+    if (isEven(inputNumber.value)) {
+    
+        console.log("Il numero è pari");
+    
+    } else {
+    
+        console.log("Il numero è dispari");
+    
+    }
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
